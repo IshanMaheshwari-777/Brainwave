@@ -2,4 +2,4 @@
 .scrollbar-hidden::-webkit-scrollbar {
     display: none; /* Chrome, Safari */
   }
-  
+@custom-variant dark (&:where(.dark, .dark *));
